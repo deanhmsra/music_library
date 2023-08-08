@@ -39,7 +39,7 @@ const handleSearch = (e, term) => {
       {message}
         <Router>
           <Routes>
-            <Route path="/" element={
+            <Route path="/" element= {
               <>
                 <SearchBar handleSearch = {handleSearch}/>
                 <Gallery data={data} />
