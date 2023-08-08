@@ -42,7 +42,7 @@ const detailView = () => {
 }
 
     return (
-        <div onClick={() => setViewDetails(!viewDetails)} style={{display: 'inline-block'}}>
+        <div onClick={() => setViewDetails(!viewDetails)} style={{'display': 'inline-block'}}>
             {viewDetails ? detailView() : simpleView()}
         </div>
     )
