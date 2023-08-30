@@ -5,8 +5,8 @@ const display = props.data.map((song, index) =>
     <GalleryItem song={song} key={index} />)
 
     return (
-        <div>
-            {display}
-        </div>
+      <div>
+      	{display}
+      </div>
     )
 }
